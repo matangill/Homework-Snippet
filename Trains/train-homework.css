@@ -1,0 +1,47 @@
+		body,
+		html {
+			height: 100%;
+			margin: 0;
+		}
+		
+		.landscape {
+			width: 100%;
+			height: 100%;
+			background-image: url(images/hilly-landscape.jpg);
+			background-repeat: no-repeat;
+		}
+		
+		.train {
+			position: absolute;
+			margin-left: 20%;
+			margin-right: 20%;
+		}
+		
+		.train-section {
+			display: inline;
+			position: relative;
+			bottom: -400px;
+			margin: 2px
+		}
+		
+		.track {
+			width: 1280px;
+			background: url(images/train-track-pattern.png);
+			background-repeat: repeat-x;
+			position: relative;
+			bottom: -655px;
+		}
+		
+		@media screen and (min-width: 400px) {
+			.train img {
+				height: 30%;
+				width: 30%;
+			}
+		}
+		
+		@media screen and (min-width: 1280px) {
+			.train img {
+				height: 100%;
+				width: 100%;
+			}
+		}
