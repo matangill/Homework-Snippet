@@ -12,29 +12,31 @@
 		}
 		
 		.train {
-			position: absolute;
+			height: 100%;
+			position: relative;
 			margin-left: 20%;
 			margin-right: 20%;
 		}
 		
 		.train-section {
 			display: inline;
-			position: relative;
-			bottom: -400px;
-			margin: 2px
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			margin-bottom: 32px;
 		}
 		
 		.track {
 			width: 1280px;
 			background: url(images/train-track-pattern.png);
 			background-repeat: repeat-x;
-			position: relative;
-			bottom: -655px;
+			position: absolute;
+			bottom: 0;
 		}
 		
 		@media screen and (min-width: 400px) {
 			.train img {
-				height: 30%;
+				/*				height: 30%;*/
 				width: 30%;
 			}
 		}
